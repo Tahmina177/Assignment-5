@@ -20,7 +20,7 @@ class Quiz {
       } else {
         print("Wrong! The correct answer was ${question.answer}");
       }
-      print(""); // for a new line
+      print(""); 
     }
     viewScore();
   }
@@ -38,3 +38,4 @@ void main() {
   Quiz quiz = Quiz(questions);
   quiz.startQuiz();
 }
+
