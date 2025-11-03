@@ -14,9 +14,9 @@ class House {
 }
 
 void main() {
-  House house1 = House(1, "Ifty's Villa", 850000.00);
-  House house2 = House(2, "Ifty's Apartment", 175000.00);
-  House house3 = House(3, "SalmanKhan Cottage", 320000.00);
+  House house1 = House(1, "Brinsley Apartment", 850000.00);
+  House house2 = House(2, "Tarling House", 175000.00);
+  House house3 = House(3, "Eco Cottage", 320000.00);
 
   List<House> houses = [house1, house2, house3];
 
@@ -24,3 +24,4 @@ void main() {
     house.display();
   }
 }
+
